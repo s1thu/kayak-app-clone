@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF22E8402BCCFE8900BDEBCB /* SignintoContinueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22E83F2BCCFE8900BDEBCB /* SignintoContinueVC.swift */; };
+		FF22E8422BCD037F00BDEBCB /* SignintoEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22E8412BCD037F00BDEBCB /* SignintoEmailVC.swift */; };
+		FF77DA892BCCF3390075C524 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77DA882BCCF3390075C524 /* SplashScreenVC.swift */; };
 		FF7BABDD2BCBF3C6002AF769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABDC2BCBF3C6002AF769 /* AppDelegate.swift */; };
 		FF7BABDF2BCBF3C6002AF769 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABDE2BCBF3C6002AF769 /* SceneDelegate.swift */; };
-		FF7BABE12BCBF3C6002AF769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABE02BCBF3C6002AF769 /* ViewController.swift */; };
 		FF7BABE42BCBF3C6002AF769 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF7BABE32BCBF3C6002AF769 /* Base */; };
 		FF7BABE62BCBF3C8002AF769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7BABE52BCBF3C8002AF769 /* Assets.xcassets */; };
 		FF7BABE92BCBF3C8002AF769 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FF7BABE82BCBF3C8002AF769 /* Base */; };
+		FF7BABF62BCBF60E002AF769 /* RootNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABF52BCBF60E002AF769 /* RootNC.swift */; };
+		FF7BABF92BCBF75B002AF769 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABF82BCBF75B002AF769 /* VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF22E83F2BCCFE8900BDEBCB /* SignintoContinueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignintoContinueVC.swift; sourceTree = "<group>"; };
+		FF22E8412BCD037F00BDEBCB /* SignintoEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignintoEmailVC.swift; sourceTree = "<group>"; };
+		FF77DA882BCCF3390075C524 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		FF7BABD92BCBF3C6002AF769 /* kayak-app-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kayak-app-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7BABDC2BCBF3C6002AF769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7BABDE2BCBF3C6002AF769 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF7BABE02BCBF3C6002AF769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF7BABE32BCBF3C6002AF769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF7BABE52BCBF3C8002AF769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF7BABE82BCBF3C8002AF769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF7BABEA2BCBF3C8002AF769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7BABF52BCBF60E002AF769 /* RootNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNC.swift; sourceTree = "<group>"; };
+		FF7BABF82BCBF75B002AF769 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,11 @@
 		FF7BABD02BCBF3C6002AF769 = {
 			isa = PBXGroup;
 			children = (
+				FF7BABF72BCBF750002AF769 /* Extension */,
+				FF7BABF42BCBF4FE002AF769 /* Navigation */,
+				FF7BABF22BCBF442002AF769 /* Model */,
+				FF7BABF12BCBF436002AF769 /* ViewController */,
+				FF7BABF02BCBF42D002AF769 /* Storyboard */,
 				FF7BABDB2BCBF3C6002AF769 /* kayak-app-clone */,
 				FF7BABDA2BCBF3C6002AF769 /* Products */,
 			);
@@ -58,13 +71,52 @@
 			children = (
 				FF7BABDC2BCBF3C6002AF769 /* AppDelegate.swift */,
 				FF7BABDE2BCBF3C6002AF769 /* SceneDelegate.swift */,
-				FF7BABE02BCBF3C6002AF769 /* ViewController.swift */,
-				FF7BABE22BCBF3C6002AF769 /* Main.storyboard */,
 				FF7BABE52BCBF3C8002AF769 /* Assets.xcassets */,
 				FF7BABE72BCBF3C8002AF769 /* LaunchScreen.storyboard */,
 				FF7BABEA2BCBF3C8002AF769 /* Info.plist */,
 			);
 			path = "kayak-app-clone";
+			sourceTree = "<group>";
+		};
+		FF7BABF02BCBF42D002AF769 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FF7BABE22BCBF3C6002AF769 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FF7BABF12BCBF436002AF769 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FF77DA882BCCF3390075C524 /* SplashScreenVC.swift */,
+				FF22E83F2BCCFE8900BDEBCB /* SignintoContinueVC.swift */,
+				FF22E8412BCD037F00BDEBCB /* SignintoEmailVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FF7BABF22BCBF442002AF769 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF7BABF42BCBF4FE002AF769 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FF7BABF52BCBF60E002AF769 /* RootNC.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FF7BABF72BCBF750002AF769 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF7BABF82BCBF75B002AF769 /* VC.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF7BABE12BCBF3C6002AF769 /* ViewController.swift in Sources */,
+				FF22E8422BCD037F00BDEBCB /* SignintoEmailVC.swift in Sources */,
+				FF7BABF62BCBF60E002AF769 /* RootNC.swift in Sources */,
 				FF7BABDD2BCBF3C6002AF769 /* AppDelegate.swift in Sources */,
+				FF22E8402BCCFE8900BDEBCB /* SignintoContinueVC.swift in Sources */,
+				FF7BABF92BCBF75B002AF769 /* VC.swift in Sources */,
+				FF77DA892BCCF3390075C524 /* SplashScreenVC.swift in Sources */,
 				FF7BABDF2BCBF3C6002AF769 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +363,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.s1thu.kayak-app-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -335,6 +394,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.s1thu.kayak-app-clone";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
