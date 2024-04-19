@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		FF22E8402BCCFE8900BDEBCB /* SignintoContinueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22E83F2BCCFE8900BDEBCB /* SignintoContinueVC.swift */; };
 		FF22E8422BCD037F00BDEBCB /* SignintoEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22E8412BCD037F00BDEBCB /* SignintoEmailVC.swift */; };
+		FF48E2872BD2B21400AC3267 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48E2862BD2B21400AC3267 /* Region.swift */; };
+		FF48E28E2BD2B58D00AC3267 /* RegionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48E28D2BD2B58D00AC3267 /* RegionRepository.swift */; };
+		FF48E2912BD2B5C400AC3267 /* RegionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48E2902BD2B5C400AC3267 /* RegionDataSource.swift */; };
+		FF6B52B72BD0DB4C00A8F42C /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52B62BD0DB4C00A8F42C /* Regex.swift */; };
+		FF6B52B92BD0DE8900A8F42C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52B82BD0DE8900A8F42C /* String.swift */; };
+		FF6B52BB2BD0E07E00A8F42C /* CreateAccVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52BA2BD0E07E00A8F42C /* CreateAccVC.swift */; };
+		FF6B52BD2BD16A2900A8F42C /* EnablenotiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52BC2BD16A2900A8F42C /* EnablenotiVC.swift */; };
+		FF6B52C02BD173C500A8F42C /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52BF2BD173C500A8F42C /* Array.swift */; };
+		FF6B52C22BD175A900A8F42C /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52C12BD175A900A8F42C /* WelcomeVC.swift */; };
+		FF6B52C72BD1787300A8F42C /* RegionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52C52BD1787300A8F42C /* RegionsCell.swift */; };
+		FF6B52C82BD1787300A8F42C /* RegionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6B52C62BD1787300A8F42C /* RegionsCell.xib */; };
 		FF77DA892BCCF3390075C524 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77DA882BCCF3390075C524 /* SplashScreenVC.swift */; };
 		FF7BABDD2BCBF3C6002AF769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABDC2BCBF3C6002AF769 /* AppDelegate.swift */; };
 		FF7BABDF2BCBF3C6002AF769 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABDE2BCBF3C6002AF769 /* SceneDelegate.swift */; };
@@ -22,6 +33,17 @@
 /* Begin PBXFileReference section */
 		FF22E83F2BCCFE8900BDEBCB /* SignintoContinueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignintoContinueVC.swift; sourceTree = "<group>"; };
 		FF22E8412BCD037F00BDEBCB /* SignintoEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignintoEmailVC.swift; sourceTree = "<group>"; };
+		FF48E2862BD2B21400AC3267 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		FF48E28D2BD2B58D00AC3267 /* RegionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionRepository.swift; sourceTree = "<group>"; };
+		FF48E2902BD2B5C400AC3267 /* RegionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionDataSource.swift; sourceTree = "<group>"; };
+		FF6B52B62BD0DB4C00A8F42C /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		FF6B52B82BD0DE8900A8F42C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FF6B52BA2BD0E07E00A8F42C /* CreateAccVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccVC.swift; sourceTree = "<group>"; };
+		FF6B52BC2BD16A2900A8F42C /* EnablenotiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnablenotiVC.swift; sourceTree = "<group>"; };
+		FF6B52BF2BD173C500A8F42C /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		FF6B52C12BD175A900A8F42C /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		FF6B52C52BD1787300A8F42C /* RegionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsCell.swift; sourceTree = "<group>"; };
+		FF6B52C62BD1787300A8F42C /* RegionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegionsCell.xib; sourceTree = "<group>"; };
 		FF77DA882BCCF3390075C524 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		FF7BABD92BCBF3C6002AF769 /* kayak-app-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kayak-app-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7BABDC2BCBF3C6002AF769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,9 +67,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF48E2882BD2B41B00AC3267 /* WelcomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B52C12BD175A900A8F42C /* WelcomeVC.swift */,
+			);
+			path = WelcomeVC;
+			sourceTree = "<group>";
+		};
+		FF48E28B2BD2B44700AC3267 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				FF48E28F2BD2B5B600AC3267 /* Local */,
+				FF48E28C2BD2B45200AC3267 /* Repository */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		FF48E28C2BD2B45200AC3267 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FF48E28D2BD2B58D00AC3267 /* RegionRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FF48E28F2BD2B5B600AC3267 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				FF48E2902BD2B5C400AC3267 /* RegionDataSource.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		FF6B52C32BD1784200A8F42C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B52C42BD1784F00A8F42C /* RegionCells */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FF6B52C42BD1784F00A8F42C /* RegionCells */ = {
+			isa = PBXGroup;
+			children = (
+				FF6B52C52BD1787300A8F42C /* RegionsCell.swift */,
+				FF6B52C62BD1787300A8F42C /* RegionsCell.xib */,
+			);
+			path = RegionCells;
+			sourceTree = "<group>";
+		};
 		FF7BABD02BCBF3C6002AF769 = {
 			isa = PBXGroup;
 			children = (
+				FF48E28B2BD2B44700AC3267 /* DataSource */,
+				FF6B52C32BD1784200A8F42C /* Cell */,
 				FF7BABF72BCBF750002AF769 /* Extension */,
 				FF7BABF42BCBF4FE002AF769 /* Navigation */,
 				FF7BABF22BCBF442002AF769 /* Model */,
@@ -89,9 +163,12 @@
 		FF7BABF12BCBF436002AF769 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FF48E2882BD2B41B00AC3267 /* WelcomeVC */,
 				FF77DA882BCCF3390075C524 /* SplashScreenVC.swift */,
 				FF22E83F2BCCFE8900BDEBCB /* SignintoContinueVC.swift */,
 				FF22E8412BCD037F00BDEBCB /* SignintoEmailVC.swift */,
+				FF6B52BA2BD0E07E00A8F42C /* CreateAccVC.swift */,
+				FF6B52BC2BD16A2900A8F42C /* EnablenotiVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -99,6 +176,7 @@
 		FF7BABF22BCBF442002AF769 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FF48E2862BD2B21400AC3267 /* Region.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -115,6 +193,9 @@
 			isa = PBXGroup;
 			children = (
 				FF7BABF82BCBF75B002AF769 /* VC.swift */,
+				FF6B52B62BD0DB4C00A8F42C /* Regex.swift */,
+				FF6B52B82BD0DE8900A8F42C /* String.swift */,
+				FF6B52BF2BD173C500A8F42C /* Array.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -180,6 +261,7 @@
 				FF7BABE62BCBF3C8002AF769 /* Assets.xcassets in Resources */,
 				FF7BABE92BCBF3C8002AF769 /* Base in Resources */,
 				FF7BABE42BCBF3C6002AF769 /* Base in Resources */,
+				FF6B52C82BD1787300A8F42C /* RegionsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,13 +272,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF48E2912BD2B5C400AC3267 /* RegionDataSource.swift in Sources */,
 				FF22E8422BCD037F00BDEBCB /* SignintoEmailVC.swift in Sources */,
+				FF6B52B72BD0DB4C00A8F42C /* Regex.swift in Sources */,
 				FF7BABF62BCBF60E002AF769 /* RootNC.swift in Sources */,
 				FF7BABDD2BCBF3C6002AF769 /* AppDelegate.swift in Sources */,
+				FF6B52C22BD175A900A8F42C /* WelcomeVC.swift in Sources */,
 				FF22E8402BCCFE8900BDEBCB /* SignintoContinueVC.swift in Sources */,
 				FF7BABF92BCBF75B002AF769 /* VC.swift in Sources */,
+				FF6B52BD2BD16A2900A8F42C /* EnablenotiVC.swift in Sources */,
 				FF77DA892BCCF3390075C524 /* SplashScreenVC.swift in Sources */,
+				FF6B52C72BD1787300A8F42C /* RegionsCell.swift in Sources */,
+				FF6B52B92BD0DE8900A8F42C /* String.swift in Sources */,
+				FF6B52C02BD173C500A8F42C /* Array.swift in Sources */,
+				FF6B52BB2BD0E07E00A8F42C /* CreateAccVC.swift in Sources */,
+				FF48E28E2BD2B58D00AC3267 /* RegionRepository.swift in Sources */,
 				FF7BABDF2BCBF3C6002AF769 /* SceneDelegate.swift in Sources */,
+				FF48E2872BD2B21400AC3267 /* Region.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

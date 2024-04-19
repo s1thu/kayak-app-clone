@@ -33,7 +33,7 @@ class SignintoContinueVC: UIViewController {
     }
     
     @objc func navigateToEmailSign(){
-        let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SigintoEmailVC") as? SignintoEmailVC
+        let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SignintoEmailVC") as? SignintoEmailVC
         guard let vc = vc else { return  }
         rootNC?.pushViewController(vc, animated: true)
     }
