@@ -15,4 +15,11 @@ class RegionRepository{
         regionDatasource.getAllRegions()
     }
  
+    func checkUncheck(id:Int){
+        regionDatasource.checkUncheckregion(id: id)
+    }
+    
+    func getCheckUncheckRegion() -> Bool{
+        regionDatasource.getCheckUncheckRegion()
+    }
 }

@@ -20,6 +20,9 @@
 		FF6B52C22BD175A900A8F42C /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52C12BD175A900A8F42C /* WelcomeVC.swift */; };
 		FF6B52C72BD1787300A8F42C /* RegionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6B52C52BD1787300A8F42C /* RegionsCell.swift */; };
 		FF6B52C82BD1787300A8F42C /* RegionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6B52C62BD1787300A8F42C /* RegionsCell.xib */; };
+		FF6C35692BD39BD1007391D4 /* WelcomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6C35682BD39BD1007391D4 /* WelcomeVM.swift */; };
+		FF6C356B2BD3A13E007391D4 /* HeythereVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6C356A2BD3A13E007391D4 /* HeythereVC.swift */; };
+		FF6C356E2BD3A788007391D4 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6C356D2BD3A788007391D4 /* TabbarVC.swift */; };
 		FF77DA892BCCF3390075C524 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF77DA882BCCF3390075C524 /* SplashScreenVC.swift */; };
 		FF7BABDD2BCBF3C6002AF769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABDC2BCBF3C6002AF769 /* AppDelegate.swift */; };
 		FF7BABDF2BCBF3C6002AF769 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7BABDE2BCBF3C6002AF769 /* SceneDelegate.swift */; };
@@ -44,6 +47,9 @@
 		FF6B52C12BD175A900A8F42C /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		FF6B52C52BD1787300A8F42C /* RegionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsCell.swift; sourceTree = "<group>"; };
 		FF6B52C62BD1787300A8F42C /* RegionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegionsCell.xib; sourceTree = "<group>"; };
+		FF6C35682BD39BD1007391D4 /* WelcomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVM.swift; sourceTree = "<group>"; };
+		FF6C356A2BD3A13E007391D4 /* HeythereVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeythereVC.swift; sourceTree = "<group>"; };
+		FF6C356D2BD3A788007391D4 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
 		FF77DA882BCCF3390075C524 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		FF7BABD92BCBF3C6002AF769 /* kayak-app-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kayak-app-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7BABDC2BCBF3C6002AF769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				FF6B52C12BD175A900A8F42C /* WelcomeVC.swift */,
+				FF6C35682BD39BD1007391D4 /* WelcomeVM.swift */,
 			);
 			path = WelcomeVC;
 			sourceTree = "<group>";
@@ -117,9 +124,18 @@
 			path = RegionCells;
 			sourceTree = "<group>";
 		};
+		FF6C356C2BD3A748007391D4 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				FF6C356D2BD3A788007391D4 /* TabbarVC.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
 		FF7BABD02BCBF3C6002AF769 = {
 			isa = PBXGroup;
 			children = (
+				FF6C356C2BD3A748007391D4 /* Tabbar */,
 				FF48E28B2BD2B44700AC3267 /* DataSource */,
 				FF6B52C32BD1784200A8F42C /* Cell */,
 				FF7BABF72BCBF750002AF769 /* Extension */,
@@ -169,6 +185,7 @@
 				FF22E8412BCD037F00BDEBCB /* SignintoEmailVC.swift */,
 				FF6B52BA2BD0E07E00A8F42C /* CreateAccVC.swift */,
 				FF6B52BC2BD16A2900A8F42C /* EnablenotiVC.swift */,
+				FF6C356A2BD3A13E007391D4 /* HeythereVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -278,12 +295,15 @@
 				FF7BABF62BCBF60E002AF769 /* RootNC.swift in Sources */,
 				FF7BABDD2BCBF3C6002AF769 /* AppDelegate.swift in Sources */,
 				FF6B52C22BD175A900A8F42C /* WelcomeVC.swift in Sources */,
+				FF6C356B2BD3A13E007391D4 /* HeythereVC.swift in Sources */,
 				FF22E8402BCCFE8900BDEBCB /* SignintoContinueVC.swift in Sources */,
+				FF6C35692BD39BD1007391D4 /* WelcomeVM.swift in Sources */,
 				FF7BABF92BCBF75B002AF769 /* VC.swift in Sources */,
 				FF6B52BD2BD16A2900A8F42C /* EnablenotiVC.swift in Sources */,
 				FF77DA892BCCF3390075C524 /* SplashScreenVC.swift in Sources */,
 				FF6B52C72BD1787300A8F42C /* RegionsCell.swift in Sources */,
 				FF6B52B92BD0DE8900A8F42C /* String.swift in Sources */,
+				FF6C356E2BD3A788007391D4 /* TabbarVC.swift in Sources */,
 				FF6B52C02BD173C500A8F42C /* Array.swift in Sources */,
 				FF6B52BB2BD0E07E00A8F42C /* CreateAccVC.swift in Sources */,
 				FF48E28E2BD2B58D00AC3267 /* RegionRepository.swift in Sources */,

@@ -27,7 +27,7 @@ class Region{
     
     static func getDummyData() -> [Region]{
         return [
-            .init(id: 1,countryName: "United States", website: "kayak.com", rate: "$ (USD)", flag: "icon.flag.america"),
+            .init(id: 1,countryName: "United States", website: "kayak.com", rate: "$ (USD)", flag: "icon.flag.america",isSelected: false),
             .init(id: 2, countryName: "Singapore", website: "kayak.sg", rate: "S$ (SGD)", flag: "icon.flag.sg")
         ]
     }

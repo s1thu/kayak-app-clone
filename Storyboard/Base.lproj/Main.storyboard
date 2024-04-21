@@ -792,9 +792,31 @@ this at any time in the app's settings.</string>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zyd-eX-OAs">
-                                <rect key="frame" x="0.0" y="175.66666666666669" width="393" height="542.33333333333326"/>
+                                <rect key="frame" x="0.0" y="175.66666666666666" width="393" height="342.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More Options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiC-ER-MJC">
+                                <rect key="frame" x="135.66666666666666" y="548" width="121.99999999999997" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <color key="textColor" red="0.2901961207" green="0.43921568989999998" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yue-7z-K3a">
+                                <rect key="frame" x="15" y="602" width="363" height="50"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="tr4-yw-KBa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Continue">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lbO-pR-In4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -802,15 +824,21 @@ this at any time in the app's settings.</string>
                             <constraint firstItem="eqj-Em-zHN" firstAttribute="top" secondItem="lbO-pR-In4" secondAttribute="top" id="AUB-2W-UBw"/>
                             <constraint firstItem="lbO-pR-In4" firstAttribute="trailing" secondItem="eqj-Em-zHN" secondAttribute="trailing" id="Aqz-Kd-C8J"/>
                             <constraint firstItem="eqj-Em-zHN" firstAttribute="leading" secondItem="lbO-pR-In4" secondAttribute="leading" id="FD9-1d-EjB"/>
+                            <constraint firstItem="RiC-ER-MJC" firstAttribute="centerX" secondItem="gRH-rg-2xP" secondAttribute="centerX" id="P4A-xK-a0C"/>
                             <constraint firstItem="zyd-eX-OAs" firstAttribute="leading" secondItem="lbO-pR-In4" secondAttribute="leading" id="QV9-hl-gAm"/>
                             <constraint firstItem="zyd-eX-OAs" firstAttribute="top" secondItem="eqj-Em-zHN" secondAttribute="bottom" id="SoJ-GK-uu0"/>
                             <constraint firstItem="zyd-eX-OAs" firstAttribute="leading" secondItem="lbO-pR-In4" secondAttribute="leading" id="azh-YM-O0F"/>
                             <constraint firstItem="zyd-eX-OAs" firstAttribute="trailing" secondItem="lbO-pR-In4" secondAttribute="trailing" id="b4t-OW-RX0"/>
-                            <constraint firstItem="lbO-pR-In4" firstAttribute="bottom" secondItem="zyd-eX-OAs" secondAttribute="bottom" constant="100" id="kW1-qb-nVF"/>
+                            <constraint firstItem="Yue-7z-K3a" firstAttribute="leading" secondItem="lbO-pR-In4" secondAttribute="leading" constant="15" id="dBT-0l-92P"/>
+                            <constraint firstItem="RiC-ER-MJC" firstAttribute="top" secondItem="zyd-eX-OAs" secondAttribute="bottom" constant="30" id="fzQ-5D-eAH"/>
+                            <constraint firstItem="lbO-pR-In4" firstAttribute="bottom" secondItem="zyd-eX-OAs" secondAttribute="bottom" constant="300" id="kW1-qb-nVF"/>
                             <constraint firstItem="lbO-pR-In4" firstAttribute="trailing" secondItem="zyd-eX-OAs" secondAttribute="trailing" id="nOt-Fd-dyt"/>
+                            <constraint firstItem="lbO-pR-In4" firstAttribute="trailing" secondItem="Yue-7z-K3a" secondAttribute="trailing" constant="15" id="vX6-vE-iRr"/>
+                            <constraint firstItem="Yue-7z-K3a" firstAttribute="top" secondItem="RiC-ER-MJC" secondAttribute="bottom" constant="30" id="vwV-0O-cxP"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btnContinue" destination="Yue-7z-K3a" id="2Si-UE-hTE"/>
                         <outlet property="tbRegion" destination="zyd-eX-OAs" id="P2d-CD-3Iq"/>
                     </connections>
                 </viewController>
@@ -840,13 +868,13 @@ this at any time in the app's settings.</string>
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="tableCellBlueTextColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
